@@ -42,7 +42,7 @@ args = vars(ap.parse_args())
 
 # initialize the set of labels from the spots activity dataset we are
 # going to train our network on
-LABELS = set(["weight_lifting", "tennis", "football"])
+LABELS = set(["weight_lifting", "tennis", "football"]) # identify the labels you want from the dataset
 
 # grab the list of images in our dataset directory, then initialize
 # the list of data (i.e., images) and class images
